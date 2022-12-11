@@ -1,0 +1,54 @@
+@import "main.css";
+@import "custom.css";
+
+.webform {
+  width: 75%;
+  position: relative;
+  margin: auto;
+  box-shadow: var(--boxShadow) !important;
+  padding: 30px;
+  background-color: #fffffd;
+  /*margin-top: 25px;
+  margin-bottom: 25px; */
+}
+
+.webform div {
+  margin-top: 13px;
+}
+
+.submit {
+  position: relative;
+  float: left;
+  clear: both;
+  margin-top: 10px;
+  border-color: var(--secondaryColor) !important;
+  color: var(--secondaryColor) !important;
+}
+
+.submit:hover {
+  border-color: var(--secondaryColor) !important;
+  color: var(--dominantColor) !important;
+  background-color: var(--secondaryColor) !important;
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.2, 1) !important;
+  transform: scale(1.1);
+}
+
+#date {
+  width: 150px;
+}
+
+#age {
+  width: 150px;
+}
+
+#custom {
+  margin-top: 5px;
+}
+
+.checkbox,
+.radio {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 0px;
+  margin-left: 10px;
+}

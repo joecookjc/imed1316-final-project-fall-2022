@@ -1,0 +1,15 @@
+:root {
+  /* colors */
+  /* https://color.adobe.com/Khoa-Lê---Website-color-theme-20813452 */
+  /*
+60% of #D2D8D9 - Dominant
+30% of #1F2426 - Secondary
+10% of #828C6D - Accent
+*/
+
+  --dominantColor: #d2d8d9; /* var(--dominantColor) !important; */
+  --secondaryColor: #1f2426; /* var(--secondaryColor) !important; */
+  --accentColor: #828c6d; /* var(--accentColor) !important; */
+
+  --boxShadow: 0 0 20px rgba(0, 0, 0, 0.35); /* var(--boxShadow) !important; */
+}
